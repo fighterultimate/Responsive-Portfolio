@@ -1,0 +1,218 @@
+body {
+    background-color: rgb(82, 93, 187);
+    margin: 0px;
+    padding: 0px;
+}
+#nav {
+    color:black;
+    
+}
+#consize {
+    padding: 30px;
+}
+#bar {
+    margin-bottom: 30px;
+    
+}
+p {
+    font-family: 'Neucha', cursive;
+    line-height: 50px;
+    font-weight: 400;
+    font-size: 20px;
+}
+#form {
+    background-color: aqua;
+    display: inline-block;
+    }
+    h1 {
+        margin-bottom: 30px;
+    }
+    
+    *, *:after, *:before {
+        padding:0;
+        margin:0;
+        font-family:Arial;
+      }
+      
+      
+      ul {
+        position:absolute;
+        top:0;
+        bottom:0;
+        left:0;
+        right:0;
+        margin:auto;
+        list-style:none;
+        width:955px;
+        height:450px;
+        border-radius:3px;
+        overflow:hidden;
+        box-shadow:1px 1px 3px 1px;
+      }
+      
+      
+      li {
+        position:relative;
+        width:190px;
+        height:450px;
+        float:left;
+        border-left:1px solid white;
+        -webkit-transition:all 0.7s;
+        -moz-transition:all 0.7s;
+        transition:all 0.7s;
+        box-shadow:-2px 0 10px 2px;
+      }
+      
+      ul li:first-child {
+        border:none;
+      }
+      
+      span {
+        display:block;
+        position:absolute;
+        bottom:0;
+        width:50%;
+        color:white;
+        white-space:nowrap;
+        padding:20px;
+        background: -moz-linear-gradient(left,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6+ */
+      background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(0,0,0,0.65)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
+      background: -webkit-linear-gradient(left,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
+      background: -o-linear-gradient(left,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Opera 11.10+ */
+      background: -ms-linear-gradient(left,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* IE10+ */
+      background: linear-gradient(to right,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=1 ); /* IE6-9 */
+      
+      }
+      
+    .mainimg {
+        width:auto;
+        height:auto;
+        max-width: 100%;
+      }
+      
+      ul:hover li {
+        width:50px;  
+      }
+      
+      
+      ul li:hover {
+        width:750px;
+      }
+      
+      
+      #yin {
+        height:40px;
+        width: 40px;
+
+      }
+      
+      
+#con {
+    text-align: center;
+}
+
+#bar2 {
+    margin-bottom: 0px;
+}
+
+#confoto {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    max-width: 100%;
+}
+#textarea  {
+    padding-top: 500px;
+    padding-bottom: 500px;
+    height: 500px;
+}
+
+.footer {
+    position: absolute;
+    right: 0;
+    bottom: 1;
+    left: 0;
+    padding: 1rem;
+    background-color: #000000;
+    text-align: center;
+    color: white;
+  
+}
+.footer2 {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #000000;
+    text-align: center;
+    color: white;
+}
+.container {
+  max-width: none !important;
+}
+.portimage {
+  
+}
+
+#rowmed {
+  
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+
+
+
+@media screen and ( max-width: 980px) {
+    h2 { text-align: center !important;}
+
+}
+
+
+
+@media screen and ( max-width:768px) {
+   h2 { text-align: center !important;}
+   .lead {
+    font-size: 30px !important;
+    text-align: center;
+    font-size: 45px !important;
+}
+p { 
+    font-size: 25px;
+    ;}
+   
+}
+
+
+
+@media screen and ( max-width:640px) {
+    p { 
+        font-size: 15px;
+        ;}
+ h2 {
+     font-size: 35px !important;
+ }
+ .lead {
+     font-size: 30px !important;
+ }
+ 
+ }
+ @media screen and ( min-width:720px) {
+    #rowmed {  margin: 30px; padding: 40px;}
+ 
+ }
+ @media screen and ( min-width: 1140px) {
+    .mainimg { width:950px; height:550px;}
+    h2 { text-align: center !important;}
+    }
+    @media screen and ( max-width: 1140px) {
+        
+        h2 { text-align: center !important;}
+        }
